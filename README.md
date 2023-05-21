@@ -19,9 +19,10 @@ The backbone of this project is a Generative Adversarial Network (GAN). A GAN co
 
 ## How to Use
 
-1. Make sure you've installed all the necessary packages in the **Setup** section of painter.ipynb. Running this notebook doesn't require GPU or TPU.
-2. Code for saving and restoring checkpoints are provided in the notebook to help training the model over a large number of epochs.
-3. I've listed all my experiments by the end of the notebook, using **the deep architecture for generator and training for 25+ epochs** is recommended.
+1. Make sure you've installed all the necessary packages in the **Setup** section of painter.ipynb. 
+2. This notebook is CPU-based, you can modify the code to enable the use of GPU or TPU to speed up training.
+3. Code for saving and restoring checkpoints are provided in the notebook to help train the model over a large number of epochs.
+4. I've listed all my experiments by the end of the notebook, using **the deep architecture for generator and training for 25+ epochs** is recommended.
 
 ## Next Steps
 
