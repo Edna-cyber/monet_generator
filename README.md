@@ -26,7 +26,7 @@ The backbone of this project is a Generative Adversarial Network (GAN). A GAN co
 
 ## Next Steps
 
-One possible implementation is a web app that allows user to upload a photo and outputs the monet-style painting of that photo. </ br>
+One possible implementation is a web app that allows user to upload a photo and outputs the monet-style painting of that photo. <br />
 To achieve this, there are several steps:
 1. Create a python script that corresponds to the notebook and involves the saved checkpoint path
 2. Backend implementation that triggers running the python script after the user uploads a photo
