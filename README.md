@@ -1,7 +1,8 @@
 # Monet Generator
 
-The goal of this project is to generate **monet-style paintings from photos** <br />
-(Kaggle challenge: https://www.kaggle.com/competitions/gan-getting-started/).
+The goal of this project is to generate 7000+ **monet-style paintings from photos** <br />
+(Kaggle challenge: https://www.kaggle.com/competitions/gan-getting-started/). <br />
+Here are some examples I generated:
 
 ![example1](./examples/1.png)
 ![example2](./examples/2.png)
