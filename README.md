@@ -2,6 +2,9 @@
 
 The goal of this project is to generate 7000+ **monet-style paintings from photos**. <br />
 (Input data and challenge from Kaggle: https://www.kaggle.com/competitions/gan-getting-started/). <br />
+
+## Result
+
 Here are some example images I generated:
 
 ![example1](./examples/1.png)
@@ -10,7 +13,7 @@ Here are some example images I generated:
 ![example4](./examples/4.png)
 ![example5](./examples/5.png)
 
-## Introduction
+## Background
 
 The backbone of this project is a Generative Adversarial Network (GAN). A GAN consists of a generator and a discriminator who work against each other. The generator attempts to trick the discriminator, while the discriminator tries to accurately classify the real vs. generated images.
 
@@ -24,7 +27,9 @@ The backbone of this project is a Generative Adversarial Network (GAN). A GAN co
 
 One possible implementation is a web app that allows user to upload a photo and outputs the monet-style painting of that photo.
 To achieve this, there are several steps:
-1. Create a python script that corresponds to the notebook and has the 
+1. Create a python script that corresponds to the notebook and involves the saved checkpoint path
+2. Backend implementation that triggers running the python script after the user uploads a photo
+3. Slight modification to the **visualization** part and connect to the web app to display the output image
 
 
 
