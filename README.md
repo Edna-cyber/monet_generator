@@ -1,7 +1,7 @@
 # Monet Generator
 
 The goal of this project is to generate 7000+ **monet-style paintings from photos**. <br />
-(Kaggle challenge: https://www.kaggle.com/competitions/gan-getting-started/). <br />
+(Input data and challenge from Kaggle: https://www.kaggle.com/competitions/gan-getting-started/). <br />
 Here are some example images I generated:
 
 ![example1](./examples/1.png)
@@ -16,9 +16,15 @@ The backbone of this project is a Generative Adversarial Network (GAN). A GAN co
 
 ## How to Use
 
-1. Make sure you've installed necessary packages in the **Setup** section of painter.ipynb. Running this notebook doesn't require GPU or TPU.
+1. Make sure you've installed all the necessary packages in the **Setup** section of painter.ipynb. Running this notebook doesn't require GPU or TPU.
 2. Code for saving and restoring checkpoints are provided in the notebook to help training the model over a large number of epochs.
+3. I've listed all my experiments by the end of the notebook, using the deep architecture for generator and training for 25+ epochs is recommended.
 
+## Next Steps
+
+One possible implementation is a web app that allows user to upload a photo and outputs the monet-style painting of that photo.
+To achieve this, there are several steps:
+1. Create a python script that corresponds to the notebook and has the 
 
 
 
