@@ -21,15 +21,15 @@ The backbone of this project is a Generative Adversarial Network (GAN). A GAN co
 
 1. Make sure you've installed all the necessary packages in the **Setup** section of painter.ipynb. Running this notebook doesn't require GPU or TPU.
 2. Code for saving and restoring checkpoints are provided in the notebook to help training the model over a large number of epochs.
-3. I've listed all my experiments by the end of the notebook, using the deep architecture for generator and training for 25+ epochs is recommended.
+3. I've listed all my experiments by the end of the notebook, using **the deep architecture for generator and training for 25+ epochs** is recommended.
 
 ## Next Steps
 
-One possible implementation is a web app that allows user to upload a photo and outputs the monet-style painting of that photo.
+One possible implementation is a web app that allows user to upload a photo and outputs the monet-style painting of that photo. </ br>
 To achieve this, there are several steps:
 1. Create a python script that corresponds to the notebook and involves the saved checkpoint path
 2. Backend implementation that triggers running the python script after the user uploads a photo
-3. Slight modification to the **visualization** part and connect to the web app to display the output image
+3. Slight modification to the **visualization** part of the notebook and connect to the web app to display the output image
 
 
 
